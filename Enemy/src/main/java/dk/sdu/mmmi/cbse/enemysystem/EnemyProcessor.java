@@ -1,6 +1,5 @@
 package dk.sdu.mmmi.cbse.enemysystem;
 
-import dk.sdu.mmmi.cbse.common.bullet.Bullet;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
@@ -13,10 +12,10 @@ import java.util.Random;
 
 import static java.util.stream.Collectors.toList;
 
-public class EnemyControlSystem implements IEntityProcessingService {
+public class EnemyProcessor implements IEntityProcessingService {
 
-    private final double ENEMY_SPEED_Y = 50;
-    private final double ENEMY_SPEED_X = 10;
+    private final double ENEMY_SPEED_Y = 70;
+    private final double ENEMY_SPEED_X = 15;
     private final int SHOOTING_CHANCE = 49;
     private Random random = new Random();
 
@@ -37,6 +36,7 @@ public class EnemyControlSystem implements IEntityProcessingService {
             double angleRadians = Math.atan2(ENEMY_SPEED_Y, ENEMY_SPEED_X);
             double angleDegrees = Math.toDegrees(angleRadians);
             enemy.setRotation(angleDegrees);
+            enemy.setCannotCollideWithEachOther(true);
 
             if (random.nextInt() > SHOOTING_CHANCE && enemy1.getTimeSinceLastShot() >= enemy1.getFireRate()) {
                 enemy1.setTimeSinceLastShot(0);

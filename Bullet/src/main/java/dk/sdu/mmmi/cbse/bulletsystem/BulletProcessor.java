@@ -4,11 +4,10 @@ import dk.sdu.mmmi.cbse.common.bullet.Bullet;
 import dk.sdu.mmmi.cbse.common.bullet.BulletSPI;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
-import dk.sdu.mmmi.cbse.common.data.GameKeys;
 import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 
-public class BulletControlSystem implements IEntityProcessingService, BulletSPI {
+public class BulletProcessor implements IEntityProcessingService, BulletSPI {
 
     private final double BULLET_SPEED = 300;
 
@@ -27,10 +26,12 @@ public class BulletControlSystem implements IEntityProcessingService, BulletSPI 
     public Bullet createBullet(Entity shooter, GameData gameData) {
         Bullet bullet = new Bullet();
         bullet.setRotation(shooter.getRotation());
+        bullet.setRadius(1);
 
-        // Calculate the spawn position at the tip of the player
-        double spawnX = shooter.getX() + Math.cos(Math.toRadians(shooter.getRotation())) * 5;
-        double spawnY = shooter.getY() + Math.sin(Math.toRadians(shooter.getRotation())) * 5;
+        // Calculate the spawn position at the tip of the shooter
+        double offset = shooter.getRadius() + bullet.getRadius(); // This is to ensure bullet and shooter's radius never collides
+        double spawnX = shooter.getX() + Math.cos(Math.toRadians(shooter.getRotation())) * offset;
+        double spawnY = shooter.getY() + Math.sin(Math.toRadians(shooter.getRotation())) * offset;
         bullet.setX(spawnX);
         bullet.setY(spawnY);
 

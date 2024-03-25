@@ -14,6 +14,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.ServiceLoader;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.stream.Collectors;
+
 import static java.util.stream.Collectors.toList;
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
@@ -114,9 +116,21 @@ public class Main extends Application {
         for (IEntityProcessingService entityProcessorService : getEntityProcessingServices()) {
             entityProcessorService.process(gameData, world);
         }
-//        for (IPostEntityProcessingService postEntityProcessorService : getPostEntityProcessingServices()) {
-//            postEntityProcessorService.process(gameData, world);
-//        }
+
+        cleanup(world);
+
+        for (IPostEntityProcessingService postEntityProcessorService : getPostEntityProcessingServices()) {
+            postEntityProcessorService.process(gameData, world);
+        }
+
+    }
+
+    private void cleanup(World world) {
+        List<Entity> toRemove = world.getEntities().stream().filter(Entity::getIsHit).collect(Collectors.toList());
+
+        toRemove.forEach(entity -> {
+            world.removeEntity(entity);
+        });
     }
 
     private void ensureGraphicalRepresentation() {
@@ -131,6 +145,22 @@ public class Main extends Application {
 
 
     private void draw() {
+        //Find polygons with no longer existing entities
+        List<Entity> entitiesToRemove = new ArrayList<>();
+
+        for (Entity entity : polygons.keySet()) {
+            if (!world.getEntities().contains(entity)) {
+                entitiesToRemove.add(entity);
+            }
+        }
+
+        //Remove visual representation of those polygons
+        for (Entity entity : entitiesToRemove) {
+            Polygon polygon = polygons.get(entity);
+            gameWindow.getChildren().remove(polygon);
+            polygons.remove(entity);
+        }
+
         ensureGraphicalRepresentation();
         for (Entity entity : world.getEntities()) {
             Polygon polygon = polygons.get(entity);
