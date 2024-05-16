@@ -7,12 +7,16 @@ import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
 import dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.ServiceLoader;
+
+import java.io.IOException;
+import java.lang.module.Configuration;
+import java.lang.module.ModuleDescriptor;
+import java.lang.module.ModuleFinder;
+import java.lang.module.ModuleReference;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
@@ -31,16 +35,50 @@ public class Main extends Application {
     private final GameData gameData = new GameData();
     private final World world = new World();
     private final Map<Entity, Polygon> polygons = new ConcurrentHashMap<>();
-    
+    private Pane gameWindow;
+    private static List<ModuleLayer> moduleLayers = new ArrayList<>();
+
 
     public static void main(String[] args) {
         launch(Main.class);
     }
 
-    private Pane gameWindow;
+    private static void initializeModuleLayers(Path pluginsDir) throws IOException {
+        if (!Files.exists(pluginsDir) || !Files.isDirectory(pluginsDir)) {
+            throw new IOException("Plugins directory does not exist or is not a directory: " + pluginsDir);
+        }
+
+        ModuleFinder pluginsFinder = ModuleFinder.of(pluginsDir);
+        Set<ModuleReference> pluginModules = pluginsFinder.findAll();
+
+        if (pluginModules.isEmpty()) {
+            System.out.println("No plugins found in directory: " + pluginsDir.toAbsolutePath());
+            return;
+        }
+
+        System.out.println("Modules found in plugins:");
+        pluginModules.forEach(moduleRef -> System.out.println(moduleRef.descriptor().name()));
+
+        for (ModuleReference pluginModule : pluginModules) {
+            ModuleLayer pluginLayer = createModuleLayer(pluginsDir, Set.of(pluginModule.descriptor().name()));
+            moduleLayers.add(pluginLayer);
+
+            System.out.println("Created module layer for plugin: " + pluginModule.descriptor().name());
+            pluginLayer.modules().forEach(module -> System.out.println(" - " + module.getName()));
+        }
+    }
+
+    private static ModuleLayer createModuleLayer(Path pluginsDir, Set<String> moduleNames) throws IOException {
+        ModuleFinder finder = ModuleFinder.of(pluginsDir);
+        ModuleLayer parentLayer = ModuleLayer.boot();
+        Configuration configuration = parentLayer.configuration().resolve(finder, ModuleFinder.of(), moduleNames);
+        return parentLayer.defineModulesWithOneLoader(configuration, ClassLoader.getSystemClassLoader());
+    }
+
 
     @Override
     public void start(Stage window) throws Exception {
+        initializeModuleLayers(Paths.get("Plugin"));
         Text text = new Text(10, 20, "Destroyed asteroids: 0");
         gameWindow = new Pane();
         gameWindow.setPrefSize(gameData.getDisplayWidth(), gameData.getDisplayHeight());
@@ -181,4 +219,5 @@ public class Main extends Application {
     private Collection<? extends IPostEntityProcessingService> getPostEntityProcessingServices() {
         return ServiceLoader.load(IPostEntityProcessingService.class).stream().map(ServiceLoader.Provider::get).collect(toList());
     }
+
 }
