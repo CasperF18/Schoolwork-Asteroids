@@ -1,0 +1,4 @@
+--patch-module
+AsteroidSplitPackage=_
+--add-reads
+AsteroidSplitPackage=ALL-UNNAMED

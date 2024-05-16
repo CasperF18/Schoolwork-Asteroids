@@ -43,7 +43,7 @@ public class Main extends Application {
         launch(Main.class);
     }
 
-    private static void initializeModuleLayers(Path pluginsDir) throws IOException {
+    private void initializeModuleLayers(Path pluginsDir) throws IOException {
         if (!Files.exists(pluginsDir) || !Files.isDirectory(pluginsDir)) {
             throw new IOException("Plugins directory does not exist or is not a directory: " + pluginsDir);
         }
@@ -57,18 +57,18 @@ public class Main extends Application {
         }
 
         System.out.println("Modules found in plugins:");
-        pluginModules.forEach(moduleRef -> System.out.println(moduleRef.descriptor().name()));
+        pluginModules.forEach(moduleRef -> System.out.println(" - " + moduleRef.descriptor().name()));
 
         for (ModuleReference pluginModule : pluginModules) {
             ModuleLayer pluginLayer = createModuleLayer(pluginsDir, Set.of(pluginModule.descriptor().name()));
             moduleLayers.add(pluginLayer);
 
-            System.out.println("Created module layer for plugin: " + pluginModule.descriptor().name());
+            System.out.println("Created module layer for plugin:");
             pluginLayer.modules().forEach(module -> System.out.println(" - " + module.getName()));
         }
     }
 
-    private static ModuleLayer createModuleLayer(Path pluginsDir, Set<String> moduleNames) throws IOException {
+    private ModuleLayer createModuleLayer(Path pluginsDir, Set<String> moduleNames) throws IOException {
         ModuleFinder finder = ModuleFinder.of(pluginsDir);
         ModuleLayer parentLayer = ModuleLayer.boot();
         Configuration configuration = parentLayer.configuration().resolve(finder, ModuleFinder.of(), moduleNames);

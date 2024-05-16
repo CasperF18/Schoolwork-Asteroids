@@ -5,90 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d689ce4e-7cbd-4877-9619-e31596e98016" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/Asteroid-1.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroid/AsteroidPlugin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroid/AsteroidProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroid/AsteroidSplitter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/test-classes/META-INF/jpms.args" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bullet/target/Bullet-1.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bullet/target/classes/dk/sdu/mmmi/cbse/bulletsystem/BulletPlugin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bullet/target/classes/dk/sdu/mmmi/cbse/bulletsystem/BulletProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bullet/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bullet/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bullet/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bullet/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collision/target/Collision-1.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collision/target/classes/dk/sdu/mmmi/cbse/collision/Collision.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collision/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collision/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collision/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collision/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collision/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collision/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collision/target/test-classes/META-INF/jpms.args" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Common/target/Common-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/Common-1.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroid/target/CommonAsteroid-1.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroid/target/classes/dk/sdu/mmmi/cbse/commonasteroid/Asteroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroid/target/classes/dk/sdu/mmmi/cbse/commonasteroid/IAsteroidSplitter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroid/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroid/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroid/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroid/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroid/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroid/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroid/target/test-classes/META-INF/jpms.args" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CommonBullet/target/CommonBullet-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CommonBullet/target/CommonBullet-1.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/mmmi/cbse/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/mmmi/cbse/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/Core-1.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/main/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/Enemy-1.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/classes/dk/sdu/mmmi/cbse/enemysystem/Enemy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/classes/dk/sdu/mmmi/cbse/enemysystem/EnemyPlugin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/classes/dk/sdu/mmmi/cbse/enemysystem/EnemyProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/test-classes/META-INF/jpms.args" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/target/Player-1.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/PlayerPlugin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/javafx-controls-21.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mods-mvn/Asteroid-1.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mods-mvn/Bullet-1.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mods-mvn/Collision-1.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugin/AsteroidSplitPackage-1.0.1-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mods-mvn/Common-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/Common-1.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mods-mvn/CommonAsteroid-1.0.1-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mods-mvn/CommonBullet-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/CommonBullet-1.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mods-mvn/Core-1.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mods-mvn/Enemy-1.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mods-mvn/Player-1.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mods-mvn/javafx-base-21.0.2-win.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mods-mvn/javafx-base-21.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mods-mvn/javafx-controls-21.0.2-win.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mods-mvn/javafx-controls-21.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mods-mvn/javafx-graphics-21.0.2-win.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mods-mvn/javafx-graphics-21.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +169,7 @@
       <workItem from="1712242780948" duration="6000" />
       <workItem from="1715348750079" duration="2514000" />
       <workItem from="1715706613313" duration="15875000" />
-      <workItem from="1715868266329" duration="279000" />
+      <workItem from="1715868266329" duration="1070000" />
     </task>
     <servers />
   </component>
