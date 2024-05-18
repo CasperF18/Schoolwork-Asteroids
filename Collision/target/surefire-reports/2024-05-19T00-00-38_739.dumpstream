@@ -1,0 +1,5 @@
+# Created at 2024-05-19T00:00:50.175
+Boot Manifest-JAR contains absolute paths in classpath 'D:\GitFork\Asteroids\Collision\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

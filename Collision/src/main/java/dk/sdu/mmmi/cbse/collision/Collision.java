@@ -25,7 +25,7 @@ public class Collision implements IPostEntityProcessingService {
         }
     }
 
-    private Boolean isThereCollision(Entity entityA, Entity entityB) {
+    public Boolean isThereCollision(Entity entityA, Entity entityB) {
         double dx = entityA.getX() - entityB.getX();
         double dy = entityA.getY() - entityB.getY();
         double distance = Math.sqrt(dx * dx + dy * dy);
