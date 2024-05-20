@@ -9,9 +9,11 @@
         <module name="Bullet" />
         <module name="Player" />
         <module name="Asteroid" />
+        <module name="ScoreConsumer" />
         <module name="Collision" />
         <module name="Enemy" />
         <module name="CommonAsteroid" />
+        <module name="ScoreMicroService" />
         <module name="CommonBullet" />
         <module name="Common" />
         <module name="Core" />
@@ -20,7 +22,16 @@
     <bytecodeTargetLevel>
       <module name="AsteroidsObjects" target="21" />
       <module name="AsteroidSplitPackage" target="21" />
+      <module name="Score" target="21" />
       <module name="test" target="21" />
+      <module name="Test" target="17" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ScoreConsumer" options="-parameters" />
+      <module name="ScoreMicroService" options="-parameters" />
+      <module name="Test" options="-parameters" />
+    </option>
   </component>
 </project>

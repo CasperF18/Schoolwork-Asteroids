@@ -20,7 +20,10 @@
         <module>Asteroid</module>
         <module>CommonAsteroid</module>
         <module>Collision</module>
-<!--        <module>AsteroidSplitPackage</module>-->
+        <module>ScoreMicroService</module>
+        <module>ScoreConsumer</module>
+        <!--        <module>Score</module>-->
+        <!--        <module>AsteroidSplitPackage</module>-->
     </modules>
     <properties>
         <java>java</java>
