@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 @CrossOrigin
-public class ScoreApplication {
+public class ScoreMicroServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ScoreApplication.class, args);
+		SpringApplication.run(ScoreMicroServiceApplication.class, args);
 	}
 
 	private double score;

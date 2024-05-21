@@ -12,7 +12,7 @@
 	<artifactId>ScoreMicroService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ScoreMicroService</name>
-	<description>Score system for Asteroid Project</description>
+	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>21</java.version>
 	</properties>

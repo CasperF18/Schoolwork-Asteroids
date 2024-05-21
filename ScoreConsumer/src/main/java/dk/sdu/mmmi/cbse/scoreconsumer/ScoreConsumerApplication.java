@@ -8,16 +8,15 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @RestController
-public class ConsumingRestApplication {
-
+public class ScoreConsumerApplication {
 	private final RestTemplate restTemplate;
 
-	public ConsumingRestApplication(RestTemplate restTemplate) {
+	public ScoreConsumerApplication(RestTemplate restTemplate) {
 		this.restTemplate = restTemplate;
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(ConsumingRestApplication.class, args);
+		SpringApplication.run(ScoreConsumerApplication.class, args);
 	}
 
 	@GetMapping("/consume-score")

@@ -5,29 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d689ce4e-7cbd-4877-9619-e31596e98016" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Score/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroid/AsteroidProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroid/AsteroidProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Asteroid/target/Asteroid-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroid/target/Asteroid-1.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroid/AsteroidProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroid/AsteroidProcessor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bullet/target/Bullet-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Bullet/target/Bullet-1.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Collision/target/Collision-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Collision/target/Collision-1.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collision/target/surefire-reports/2024-05-19T00-00-38_739.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collision/target/surefire-reports/2024-05-20T19-28-25_971.dumpstream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Collision/target/surefire-reports/TEST-dk.sdu.mmmi.cbse.collision.CollisionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Collision/target/surefire-reports/TEST-dk.sdu.mmmi.cbse.collision.CollisionTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Collision/target/surefire-reports/dk.sdu.mmmi.cbse.collision.CollisionTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Collision/target/surefire-reports/dk.sdu.mmmi.cbse.collision.CollisionTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Common/target/Common-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/Common-1.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CommonAsteroid/target/CommonAsteroid-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CommonAsteroid/target/CommonAsteroid-1.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CommonBullet/target/CommonBullet-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CommonBullet/target/CommonBullet-1.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/mmmi/cbse/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/mmmi/cbse/main/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/target/Core-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/Core-1.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/main/Game$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/main/Game$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/main/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/main/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/classes/module-info.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Enemy/target/Enemy-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/target/Enemy-1.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Player/target/Player-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Player/target/Player-1.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Score/src/main/java/dk/sdu/mmmi/cbse/score/ScoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Score/src/main/java/dk/sdu/mmmi/cbse/score/ScoreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Score/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Score/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreConsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreConsumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreConsumer/src/main/java/dk/sdu/mmmi/cbse/scoreconsumer/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreConsumer/src/main/java/dk/sdu/mmmi/cbse/scoreconsumer/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreConsumer/src/main/java/dk/sdu/mmmi/cbse/scoreconsumer/ConsumingRestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreConsumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreConsumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreConsumer/src/test/java/dk/sdu/mmmi/cbse/scoreconsumer/ConsumingRestApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreMicroService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreMicroService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreMicroService/src/main/java/dk/sdu/mmmi/cbse/scoremicroservice/ScoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreMicroService/src/main/java/dk/sdu/mmmi/cbse/scoremicroservice/ScoreMicroServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreMicroService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreMicroService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScoreMicroService/src/test/java/dk/sdu/mmmi/cbse/scoremicroservice/ScoreApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreMicroService/src/test/java/dk/sdu/mmmi/cbse/scoremicroservice/ScoreMicroServiceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mods-mvn/Asteroid-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/Asteroid-1.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mods-mvn/Bullet-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/Bullet-1.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mods-mvn/Collision-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/Collision-1.0.1-SNAPSHOT.jar" afterDir="false" />
@@ -37,7 +38,6 @@
       <change beforePath="$PROJECT_DIR$/mods-mvn/Core-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/Core-1.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mods-mvn/Enemy-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/Enemy-1.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mods-mvn/Player-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mods-mvn/Player-1.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,38 +79,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.asteroids.jpms [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.asteroids.jpms [exec:exec].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.asteroids.jpms [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.asteroids.jpms [validate].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ConsumingRestApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ScoreApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/GitFork/Asteroids&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.asteroids.jpms [clean].executor": "Run",
+    "Maven.asteroids.jpms [exec:exec].executor": "Run",
+    "Maven.asteroids.jpms [install].executor": "Run",
+    "Maven.asteroids.jpms [validate].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ConsumingRestApplication (1).executor": "Run",
+    "Spring Boot.ConsumingRestApplication.executor": "Run",
+    "Spring Boot.ScoreApplication.executor": "Run",
+    "Spring Boot.ScoreMicroServiceApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/GitFork/Asteroids",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GitFork\Asteroids" />
@@ -135,7 +137,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumingRestApplication">
+  <component name="RunManager" selected="Spring Boot.ScoreMicroServiceApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="CommonBullet" />
       <method v="2">
@@ -200,6 +202,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ScoreConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ScoreConsumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dk.sdu.mmmi.cbse.scoreconsumer.ScoreConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScoreMicroServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ScoreMicroService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dk.sdu.mmmi.cbse.scoremicroservice.ScoreMicroServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -245,7 +261,7 @@
       <workItem from="1715958412765" duration="7503000" />
       <workItem from="1716068210987" duration="1465000" />
       <workItem from="1716156715418" duration="16688000" />
-      <workItem from="1716224556454" duration="1496000" />
+      <workItem from="1716224556454" duration="20326000" />
     </task>
     <servers />
   </component>
